@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="0dp"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnNewPost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ivNewPost"
+        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="130dp"
+        android:layout_marginBottom="-240dp"
+        android:background="#000000"
+        android:padding="10dp"
+        android:text="Create New Post"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="92dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ivUser"
+        android:layout_below="@+id/ivPostImage"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="309dp"
+        android:layout_marginTop="193dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="20dp"
+        android:background="#000000"
+        android:text="Log Out"
+        android:textColor="#FFFFFF"
+        tools:text="Log out" />
+
+    <ImageView
+        android:id="@+id/ivNewPost"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/ivPostImage"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="260dp"
+        android:layout_marginEnd="120dp"
+        android:layout_marginBottom="24dp"
+        android:layout_toStartOf="@+id/ivUser"
+        app:srcCompat="@drawable/instagram_new_post_outline_24" />
+
+    <ImageView
+        android:id="@+id/ivUser"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/ivPostImage"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="29dp"
+        android:layout_marginBottom="24dp"
+        app:srcCompat="@drawable/instagram_user_outline_24" />
+
+    <ImageView
+        android:id="@+id/ivHome"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/ivPostImage"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="260dp"
+        android:layout_marginEnd="120dp"
+        android:layout_marginBottom="24dp"
+        android:layout_toStartOf="@+id/ivNewPost"
+        app:srcCompat="@drawable/instagram_home_outline_24" />
+
+    <ImageView
+        android:id="@+id/ivPost"
+        android:layout_width="246dp"
+        android:layout_height="261dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="41dp"
+        android:layout_marginEnd="0dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/tvCaption"
+        android:layout_width="234dp"
+        android:layout_height="66dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="319dp" />
+
+</RelativeLayout>
