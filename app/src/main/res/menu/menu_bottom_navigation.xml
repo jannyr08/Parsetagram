@@ -1,20 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:android="http://schemas.android.com/apk/res/android">
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
 
     <item
         android:id="@+id/action_home"
         android:icon="@drawable/instagram_home_outline_24"
-        android:title="Home"
+        android:title=""
         app:showAsAction="always" />
+
     <item
         android:id="@+id/action_compose"
-        android:icon="@android:drawable/ic_menu_edit"
-        android:title="Compose"
+        android:icon="@drawable/instagram_new_post_outline_24"
+        android:title=""
         app:showAsAction="always" />
+
     <item
         android:id="@+id/action_profile"
         android:icon="@drawable/instagram_user_outline_24"
-        android:title="Profile"
+        android:title=""
         app:showAsAction="always" />
 </menu>
