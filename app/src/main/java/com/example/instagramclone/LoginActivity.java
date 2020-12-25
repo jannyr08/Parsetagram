@@ -36,8 +36,6 @@ public class LoginActivity extends AppCompatActivity {
         
         etUsername = findViewById(R.id.etUsername);
         etPassword = findViewById(R.id.etPassword);
-//        etUsername.getBackground().setColorFilter(Color.R, PorterDuff.Mode.SRC_ATOP);
-//       etPassword.getBackground().setColorFilter(Color.GRAY, PorterDuff.Mode.SRC_ATOP);
 
         btnLogin = findViewById(R.id.btnLogin);
         btnLogin.setOnClickListener(new View.OnClickListener() {
@@ -60,7 +58,6 @@ public class LoginActivity extends AppCompatActivity {
                 signUp(username, password);
             }
         });
-
     }
 
     private void signUp(String username, String password) {
