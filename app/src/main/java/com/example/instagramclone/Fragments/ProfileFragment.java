@@ -94,7 +94,7 @@ public class ProfileFragment extends PostsFragment {
         ParseUser.logOutInBackground(new LogOutCallback() {
             @Override
             public void done(ParseException e) {
-                Toast.makeText(getContext(), "Successfully logged out", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getContext(), "Logout successful.", Toast.LENGTH_SHORT).show();
                 Intent i = new Intent(getContext(), LoginActivity.class);
                 startActivity(i);
             }
